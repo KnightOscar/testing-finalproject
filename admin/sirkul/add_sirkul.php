@@ -7,13 +7,13 @@ $kode = $datakode['id_sk'];
 $urut = substr($kode, 1, 3);
 $tambah = (int) $urut + 1;
 
-if (strlen($tambah) == 1){
-$format = "S"."00".$tambah;
- 	}else if (strlen($tambah) == 2){
- 	$format = "S"."0".$tambah;
-			}else (strlen($tambah) == 3){
-			$format = "S".$tambah
-				}
+if (strlen($tambah) == 1) {
+    $format = "S" . "00" . $tambah;
+} else if (strlen($tambah) == 2) {
+    $format = "S" . "0" . $tambah;
+} else if (strlen($tambah) == 3) { // Gunakan else if di sini
+    $format = "S" . $tambah; // Tambahkan titik koma
+}
 ?>
 
 <section class="content-header">
