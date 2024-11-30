@@ -66,10 +66,21 @@ include "inc/koneksi.php";
 						<button type="submit" class="btn btn-success btn-block btn-flat" name="btnLogin" title="Masuk Sistem">
 							<b>Masuk</b>
 						</button>
+						
 					</div>
 					<!-- /.col -->
 				</div>
 			</form>
+
+			<!-- Tombol Pendaftaran Anggota -->
+				<div class="row">
+					<div class="col-xs-7">
+						<a href="daftar.php" class="btn btn-success btn-block btn-flat">
+							<b>Pendaftaran Anggota</b>
+						</a>
+					</div>
+				</div>
+
 			<!-- /.social-auth-links -->
 
 		</div>
@@ -84,6 +95,9 @@ include "inc/koneksi.php";
 	<!-- iCheck -->
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 	<!-- sweet alert -->
+
+
+	
 </body>
 
 </html>
