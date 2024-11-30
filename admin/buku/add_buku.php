@@ -7,13 +7,13 @@ $kode = $datakode['id_buku'];
 $urut = substr($kode, 1, 3);
 $tambah = (int) $urut + 1;
 
-if (strlen($tambah) == 1){
-$format = "B"."00".$tambah;
- 	}else if (strlen($tambah) == 2){
- 	$format = "B"."0".$tambah;
-			}else (strlen($tambah) == 3){
-			$format = "B".$tambah
-				}
+if (strlen($tambah) == 1) {
+    $format = "B" . "00" . $tambah;
+} else if (strlen($tambah) == 2) {
+    $format = "B" . "0" . $tambah;
+} else if (strlen($tambah) == 3) {
+    $format = "B" . $tambah;
+}
 ?>
 
 <section class="content-header">
